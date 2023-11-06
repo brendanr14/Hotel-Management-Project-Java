@@ -335,8 +335,8 @@ class Hotel
                         System.out.printf(format,list[obb.itemno-1],obb.quantity,obb.price );
                     }
                 break;
-            case 4:amount+=1200;
-                    System.out.println("Room Charge - "+1200);
+            case 4:amount+=1000; //changed amount from 1200 to 1000 - Brendan Rice
+                    System.out.println("Room Charge - "+1000);
                     System.out.println("\nFood Charges:- ");
                     System.out.println("===============");
                     System.out.println("Item   Quantity    Price");
